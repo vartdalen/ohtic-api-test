@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ohtic.Test.Api", "Ohtic.Test.Api\Ohtic.Test.Api.csproj", "{05E7D7D5-F298-43B0-90D8-9EE169CE5B0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ohtic.Test.OAuth2", "Ohtic.Test.OAuth2\Ohtic.Test.OAuth2.csproj", "{DA23F7EA-1E58-4E2C-B433-3FF7182E97FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ohtic.Test.Services", "Ohtic.Test.Services\Ohtic.Test.Services.csproj", "{E89BD0D8-680F-4F01-B90B-C09C2438D79A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ohtic.Test.Data", "Ohtic.Test.Data\Ohtic.Test.Data.csproj", "{CC6B489A-73F7-42A9-8040-683AE82C99B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3498A364-2F6E-445B-9A98-66B822C967F0}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ohtic.Test", "Ohtic.Test\Ohtic.Test.csproj", "{FF65859A-DE90-4FBA-AE06-8B66E219EC1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05E7D7D5-F298-43B0-90D8-9EE169CE5B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E7D7D5-F298-43B0-90D8-9EE169CE5B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E7D7D5-F298-43B0-90D8-9EE169CE5B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E7D7D5-F298-43B0-90D8-9EE169CE5B0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA23F7EA-1E58-4E2C-B433-3FF7182E97FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA23F7EA-1E58-4E2C-B433-3FF7182E97FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA23F7EA-1E58-4E2C-B433-3FF7182E97FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA23F7EA-1E58-4E2C-B433-3FF7182E97FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E89BD0D8-680F-4F01-B90B-C09C2438D79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E89BD0D8-680F-4F01-B90B-C09C2438D79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E89BD0D8-680F-4F01-B90B-C09C2438D79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E89BD0D8-680F-4F01-B90B-C09C2438D79A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC6B489A-73F7-42A9-8040-683AE82C99B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6B489A-73F7-42A9-8040-683AE82C99B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6B489A-73F7-42A9-8040-683AE82C99B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6B489A-73F7-42A9-8040-683AE82C99B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF65859A-DE90-4FBA-AE06-8B66E219EC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF65859A-DE90-4FBA-AE06-8B66E219EC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF65859A-DE90-4FBA-AE06-8B66E219EC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF65859A-DE90-4FBA-AE06-8B66E219EC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C60663B0-96D6-41DF-BBC5-86807432273D}
+	EndGlobalSection
+EndGlobal
