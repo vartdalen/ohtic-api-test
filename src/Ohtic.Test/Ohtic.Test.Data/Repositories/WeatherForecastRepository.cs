@@ -48,7 +48,7 @@ namespace Ohtic.Test.Data.Repositories
 
         public async Task Delete(int id)
         {
-            var category = await _context.WeatherForecasts.FindAsync(id);
+            var category = await Read(id);
             if (category is not null)
             {
                 _context.WeatherForecasts.Remove(category);
