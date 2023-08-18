@@ -10,6 +10,6 @@ namespace Ohtic.Test.Data.Abstractions.Repositories
         IPagedQueryRepository<Customer>
     {
         Task<Customer?> Read(CustomerEmail customerEmail);
-        Task<bool> IsResourceOwner(CustomerId customerId, WeatherForecastId orderId);
+        Task<bool> IsResourceOwner(CustomerId customerId, WeatherForecastId weatherForecastId);
     }
 }
